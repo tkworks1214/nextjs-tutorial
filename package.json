@@ -1,5 +1,8 @@
 {
   "private": true,
+  "browser": {
+    "fs": false
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
