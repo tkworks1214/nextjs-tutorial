@@ -1,7 +1,7 @@
-import { getAllIds } from '../../lib/posts'
+import { getAllPostIds } from '../../lib/posts'
 
 export async function getStaticPaths() {
-  const paths = getAllIds();
+  const paths = getAllPostIds();
   return {
     paths,
     fallback: false,
